@@ -26,3 +26,4 @@ print("*" * 59)
 
 Viaan.education()
 Nabhya.education()
+
