@@ -22,3 +22,8 @@ print("*" * 59)
 
 Viaan.education()
 Nabhya.education()
+
+print("*" * 59)
+
+print(Viaan is Nabhya) #Gives false cause the memory location is different...They are stored in different loactions
+print(Viaan == Nabhya) #false
