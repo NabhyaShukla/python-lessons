@@ -27,7 +27,7 @@ def displayDetails():
 print("\nDo you want to check existing student records(yes/no)")
 interest = input().strip().lower()
 
-if interest not in ["yes", "y"]:
+if interest not in ["yes", "y", "yeah", "yup", "ye", "sure"]:
     exit()
 else:
     displayDetails()
@@ -35,7 +35,7 @@ else:
     while True:
         print("Do you want to update records? (yes/no)")
         choice = input()
-        if choice not in ["yes", "y"]:
+        if choice not in ["yes", "y", "yeah", "yup", "ye", "sure"]:
             print("Good Bye, Human")
             exit()
         else:
