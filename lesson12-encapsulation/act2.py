@@ -39,8 +39,12 @@ else:
             print("Good Bye, Human")
             exit()
         else:
-            newAge = int(input("Enter New Age: "))
-            newPocketMoney = int(input("Enter New Pocketmoney: "))
-            s1.setAge(newAge)
-            s1.setPocketMoney(newPocketMoney)
-            displayDetails()
+            try:
+                newAge = int(input("Enter New Age: "))
+                newPocketMoney = int(input("Enter New Pocketmoney: "))
+                s1.setAge(newAge)
+                s1.setPocketMoney(newPocketMoney)
+                displayDetails()
+            except ValueError:
+                 print("Enter a Valid Vlaue...")
+            
