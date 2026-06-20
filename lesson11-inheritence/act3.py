@@ -18,7 +18,7 @@ class Grandson(Grandpa):
         return super().displayAssets() + f" and also {self.laptop}"
     
 gs1 = Grandson("Nabhya", "1,100,000", "Titan", "Apple Macbook")
-gs2 = Grandson("Viaan", "1,100,000", "Titan", "Yapple Mahakbook i")
+gs2 = Grandson("Viaan", "1,100,000", "Titan", "Yapple Mahakbook piro")
 
 print(gs1.displayAssets())
 print(gs2.displayAssets())
