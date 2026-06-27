@@ -5,6 +5,9 @@
     AND PRINT IN ANOTHER FILE 'WORDS_OUT.TXT'
 
 """
+
+#My H.W. WRITTEN CODE!
+
 # input_file = open('word.txt', 'r')
 # output_file = open('words_out.txt', 'w')
 
