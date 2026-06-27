@@ -1,0 +1,15 @@
+This is first file, 'class_notes.txt'
+=================================================
+REMINDER : Exam on MONDAY
+I will go for a walk
+REMINDER : Gutar class on TUESDAY
+I am go for swimming
+REMINDER : QUIZZ on THURSDAY
+
+This is second File, 'smthng.txt'
+=================================================
+1. John goes to school
+2. David goes for a walk 
+3. Peter went to market
+4. Tim is having lunch
+5. Walter is studying
